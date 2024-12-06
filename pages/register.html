@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Regis Form</title>
+    <link rel="stylesheet" href="../assets/css/index.css">
+  </head>
+
+  <body class="regis">
+    <div class="regis-container">
+      <h2 class="regis-title">Register</h2>
+
+      <form>
+        <div class="regis-input-group">
+          <label for="username" class="regis-label">Username</label>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            class="regis-input"
+            placeholder="Enter your username"
+          />
+        </div>
+
+        <div class="regis-input-group">
+          <label for="email" class="regis-label">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            class="regis-input"
+            placeholder="Enter your email"
+          />
+        </div>
+        <div class="regis-input-group">
+          <label for="password" class="regis-label">Password</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            class="regis-input"
+            placeholder="Enter your password"
+          />
+        </div>
+
+        <button
+          type="button"
+          onclick="register()"
+          class="regis-button"
+        >
+          Register
+        </button>
+        Sudah punya akun?,
+        <a href="./login.html"> login </a>.
+      </form>
+    </div>
+
+    <script src="../assets/js/auth/auth.js"></script>
+  </body>
+</html>

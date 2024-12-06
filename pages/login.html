@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <link rel="stylesheet" href="../assets/css/index.css" />
+  </head>
+
+  <body class="login">
+    <div class="login-container">
+      <h2 class="login-title">Login</h2>
+
+      <form>
+        <div class="login-input-group">
+          <label for="username" class="login-label">Username</label>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            class="login-input"
+            placeholder="Enter your username"
+          />
+        </div>
+
+        <div class="login-input-group">
+          <label for="password" class="login-label">Password</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            class="login-input"
+            placeholder="Enter your password"
+          />
+        </div>
+
+        <button type="button" onclick="login()" class="login-button">
+          Login
+        </button>
+        Belum punya akun?,
+        <a href="./register.html"> register </a>.
+      </form>
+    </div>
+
+    <script src="../assets/js/auth/auth.js"></script>
+  </body>
+</html>
