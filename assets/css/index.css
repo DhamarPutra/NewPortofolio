@@ -449,7 +449,7 @@ body::-webkit-scrollbar {
 }
 
 .contact-info .info-box:hover {
-  transform: translateY(-10px);
+  transform: translateX(-10px);
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 
@@ -660,4 +660,97 @@ footer {
 
 .regis-button:hover {
   background-color: #3182ce;
+}
+
+/* Gallery Style */
+.gallery-section {
+  display: none; /* Sembunyikan semua section */
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+  margin: auto;
+  width: 80%;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.gallery-section.active {
+  display: block; /* Tampilkan section aktif */
+}
+
+.photos-gallery {
+  padding-top: 50px;
+}
+
+.photos-gallery-container {
+  column-count: 5; /* Jumlah kolom */
+  column-gap: 16px; /* Jarak antar kolom */
+  padding: 20px;
+}
+
+.photos-gallery-container img {
+  width: 100%;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  break-inside: avoid; /* Mencegah gambar terpotong */
+}
+
+.videos-gallery {
+  padding-top: 50px;
+}
+
+.videos-gallery-container {
+  column-count: 5; /* Jumlah kolom */
+  column-gap: 16px; /* Jarak antar kolom */
+  padding: 20px;
+}
+
+.videos-gallery-container video {
+  width: 100%;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  break-inside: avoid; /* Mencegah video terpotong */
+  display: block; /* Pastikan video tampil penuh */
+  background-color: #000; /* Tambahkan latar belakang hitam untuk video */
+}
+
+.audio-gallery {
+  padding-top: 50px;
+}
+
+.audio-gallery-container {
+  column-count: 3; /* Jumlah kolom */
+  column-gap: 16px; /* Jarak antar kolom */
+  padding: 20px;
+}
+
+.audio-item {
+  break-inside: avoid; /* Mencegah elemen terpotong antar kolom */
+  margin-bottom: 16px;
+  padding: 10px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+audio {
+  width: 100%;
+  outline: none;
+}
+
+.none {
+  list-style: none !important;
+  border: none !important;
+  outline: none !important;
+  background: none !important;
+  padding: 0 !important;
+  color: black !important;
+  text-decoration: underline !important;
+}
+
+.none:hover {
+  color: blue !important;
 }
