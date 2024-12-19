@@ -36,7 +36,7 @@ async function login() {
 
   if (validationUser) {
     alert("Login successful");
-    window.location.href = "../pages/dashboard.html";
+    window.location.href = "../pages/userList.html";
     localStorage.setItem("isLogin", true);
     return true;
   } else {
