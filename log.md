@@ -1,3 +1,3 @@
-WIB: Wednesday, 21 October 2026 20.30.10 UTC
-WITA: Wednesday, 21 October 2026 21.30.10 UTC
-WIT: Wednesday, 21 October 2026 22.30.10 UTC
+WIB: Thursday, 22 October 2026 01.25.46 UTC
+WITA: Thursday, 22 October 2026 02.25.46 UTC
+WIT: Thursday, 22 October 2026 03.25.46 UTC
